@@ -1,0 +1,47 @@
+e_rebels = {
+	rebel = yes
+	landless = yes
+	primary = yes
+
+	culture = swedish
+	tribe = yes
+
+	color={ 0 0 0 }
+	color2={ 0 0 0 }
+}
+
+e_pirates = {
+	pirate = yes
+	landless = yes
+	primary = yes
+
+	culture = swedish
+	tribe = yes
+
+	color={ 0 0 0 }
+	color2={ 0 0 0 }
+}
+
+# Test Empire
+e_etest = {
+	color={ 170 20 170}
+	color2={ 255 255 255}
+	
+	k_ktest = {
+		color={ 0 20 170}
+		color2={ 255 255 255}
+	
+		d_dtest = {
+			color={ 0 20 170}
+			color2={ 255 255 255}
+				
+				c_test = {
+					color={ 0 20 170}
+					color2={ 255 255 255}
+					
+					b_btest1 = {
+					}
+				}
+			}
+		}
+	}

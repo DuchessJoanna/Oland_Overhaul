@@ -1,0 +1,17 @@
+100001 = {
+	name="Isabel"
+	female=yes
+	dynasty=3
+	martial=5
+	diplomacy=8
+	intrigue=5
+	stewardship=7
+	religion="ola"
+	culture="engle"
+	750.1.1 = {
+		birth="750.1.1"
+	}
+	831.2.1 = {
+		death="831.2.1"
+	}
+}

@@ -1,0 +1,49 @@
+decisions = {
+	school_tao = {
+		only_playable = yes
+		
+		potential = {
+			age = 16
+			NOR = { 
+				trait = incapable
+				trait = infirm
+				trait = possessed 
+			}
+			NOR = {
+				has_character_modifier = school_zhengyi
+				has_character_modifier = school_quanzhen
+				has_character_modifier = school_shangqing		
+			}
+			religion = taoist
+			NOT = { has_character_flag = selecting_patron_deity }
+		}
+		allow = {
+			prisoner = no
+			piety = 100
+		}
+		effect = {
+			custom_tooltip = {
+				text = choose_school_taoist
+			}
+			character_event = { id = 39807 }
+			set_character_flag = selecting_patron_deity
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+			}
+			modifier = {
+				factor = 0.2
+				trait = slothful
+			}
+			modifier = {
+				factor = 0.1
+				trait = cynical
+			}
+		}
+	}
+}

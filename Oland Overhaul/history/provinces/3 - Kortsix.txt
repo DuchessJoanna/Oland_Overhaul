@@ -1,0 +1,15 @@
+# 3 - Kortsix
+
+# County Title
+title = c_kortsix
+
+# Settlements
+max_settlements = 3
+b_tutorialvillage3 = castle
+b_tutorialvillage4 = city
+b_tutorialvillage5 = city
+
+# Misc
+culture = english
+religion = ola
+terrain = plains

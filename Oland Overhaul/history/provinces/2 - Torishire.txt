@@ -1,0 +1,14 @@
+# 2 - Torishire
+
+# County Title
+title = c_torishire
+
+# Settlements
+max_settlements = 2
+b_tutorialvillage1 = castle
+b_tutorialvillage2 = city
+
+# Misc
+culture = english
+religion = ola
+terrain = plains
