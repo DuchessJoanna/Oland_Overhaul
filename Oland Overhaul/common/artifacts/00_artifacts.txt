@@ -11,9 +11,15 @@ slots = {
 	dragon_ball = 7
 }
 
+
+
 #############################
 ####### Random/Misc #########
 #############################
+
+dragon_ball_item = {
+	
+}
 
 loot_axe = { #The Old Gods only
 	martial = 2

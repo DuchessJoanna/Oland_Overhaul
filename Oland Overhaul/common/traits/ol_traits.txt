@@ -1,4 +1,4 @@
-beutellas_blessing = { # Futanari
+beutellas_blessing_female = { # Futanari
 	random = yes
 	customizer = yes
 	potential = {
@@ -6,12 +6,28 @@ beutellas_blessing = { # Futanari
 	}
 	birth = 1 # Out of 10000 births, 1 (one hundredth of a percent) will be born as futa's
 	inherit_chance = 50 # Half of the female children born from a futa mother will also be a futa.
-	intrigue = 2 # People are very curious
+	diplomacy = 2 # People are very curious
 	fertility = 2
 	sex_appeal_opinion = 5 # People find them exotic
-	female_insult = INSULT_FREAK
-	female_insult_adj = INSULT_GROTESQUE
-	female_compliment = COMPL_BEAUTY
-	female_compliment_adj = COMPL_FAIR
-	ai_zeal = +25
+	ai_zeal = 25
+}
+
+beutellas_blessing_male = { # Hermaphrodite
+	random = yes
+	customizer = yes
+	potential = {
+		is_female = no
+	}
+	birth = 1 # Out of 10000 births, 1 (one hundredth of a percent) will be born as herms's
+	inherit_chance = 50 # Half of the male children born from a herm father will also be a herm.
+	martial = 2 # People are very curious
+	fertility = 2
+	sex_appeal_opinion = 5 # People find them exotic
+	ai_zeal = 25
+}
+
+dragon_ball_holder = {
+	random = no
+	customizer = no
+	
 }
