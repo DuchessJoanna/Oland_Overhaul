@@ -1,0 +1,6 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+###########Artifacts###########
+
+dragon_ball;Dragon Ball;;;;;;;;;;;;;x
+dragon_ball_item;Dragon Ball;;;;;;;;;;;;;x

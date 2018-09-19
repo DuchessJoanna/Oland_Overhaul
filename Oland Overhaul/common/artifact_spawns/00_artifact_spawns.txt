@@ -2,6 +2,28 @@
 #### QUALITY 5  ####
 ####################
 
+dragon_ball_artifact = {
+	max_amount = 7
+	spawn_date = 95.1.1
+	
+	spawn_chance = {
+		value = 1
+	}
+	
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			is_landed = yes
+		}
+	}
+	
+	artifacts = {
+		dragon_ball_item ={
+			value = 1
+		}
+	}
+}
 
 
 ###################

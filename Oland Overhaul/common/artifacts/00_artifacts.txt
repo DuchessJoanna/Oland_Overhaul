@@ -18,7 +18,10 @@ slots = {
 #############################
 
 dragon_ball_item = {
-	
+	monthly_character_prestige = 5
+	quality = 5
+	slot = dragon_ball
+	picture = "GFX_dragon_ball"
 }
 
 loot_axe = { #The Old Gods only
